@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "528756702984",
+    "project_id": "iot-smartmonitor",
+    "storage_bucket": "iot-smartmonitor.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:528756702984:android:991f90d8f15973987a76bd",
+        "android_client_info": {
+          "package_name": "cl.ti3042.smartmonitor"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOm8MPHAdti0pV2OC1ATH77caZs_Uz_3Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

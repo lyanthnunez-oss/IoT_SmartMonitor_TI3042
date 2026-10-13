@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#F2F7FC">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="vertical" android:padding="20dp">
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="IoT SmartMonitor" android:textColor="#073A72" android:textSize="28sp"
+            android:textStyle="bold" android:gravity="center" android:padding="8dp"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="Monitoreo de temperatura y humedad" android:gravity="center"
+            android:textColor="#35516D" android:textSize="16sp" android:paddingBottom="18dp"/>
+        <EditText android:id="@+id/emailInput" android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:hint="Correo electrónico" android:inputType="textEmailAddress" android:autofillHints="emailAddress"/>
+        <EditText android:id="@+id/passwordInput" android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:hint="Contraseña" android:inputType="textPassword" android:autofillHints="password"/>
+        <Button android:id="@+id/loginButton" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Iniciar sesión"/>
+        <Button android:id="@+id/registerButton" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Crear cuenta"/>
+        <TextView android:id="@+id/statusText" android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="Estado: desconectado" android:textColor="#073A72" android:paddingTop="14dp" android:textSize="16sp"/>
+        <TextView android:id="@+id/tempText" android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="Temperatura: -- °C" android:textSize="24sp" android:textStyle="bold" android:paddingTop="18dp" android:textColor="#073A72"/>
+        <TextView android:id="@+id/humidityText" android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="Humedad: -- %" android:textSize="24sp" android:textStyle="bold" android:paddingTop="8dp" android:textColor="#073A72"/>
+        <EditText android:id="@+id/tempInput" android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:hint="Temperatura de prueba (°C)" android:inputType="numberDecimal|numberSigned"/>
+        <EditText android:id="@+id/humidityInput" android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:hint="Humedad de prueba (%)" android:inputType="numberDecimal"/>
+        <Button android:id="@+id/sendReadingButton" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Publicar medición de prueba"/>
+        <Button android:id="@+id/deviceButton" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Alternar dispositivo (demo)"/>
+        <TextView android:id="@+id/deviceStateText" android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="Dispositivo: apagado" android:textSize="18sp" android:textStyle="bold" android:paddingTop="8dp" android:textColor="#087443"/>
+        <Button android:id="@+id/logoutButton" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Cerrar sesión"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="Demo académica: las mediciones se ingresan manualmente. Para sensores reales, integrar ESP32 + DHT22 mediante una API segura."
+            android:textSize="12sp" android:textColor="#52677D" android:paddingTop="16dp"/>
+    </LinearLayout>
+</ScrollView>

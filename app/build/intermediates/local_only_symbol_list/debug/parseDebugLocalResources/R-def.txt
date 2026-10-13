@@ -1,0 +1,23 @@
+R_DEF: Internal format may change without notice
+local
+id deviceButton
+id deviceStateText
+id emailInput
+id humidityInput
+id humidityText
+id loginButton
+id logoutButton
+id passwordInput
+id registerButton
+id sendReadingButton
+id statusText
+id tempInput
+id tempText
+layout activity_main
+string gcm_defaultSenderId
+string google_api_key
+string google_app_id
+string google_crash_reporting_api_key
+string google_storage_bucket
+string project_id
+style AppTheme
